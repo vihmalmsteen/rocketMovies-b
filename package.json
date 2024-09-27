@@ -1,0 +1,39 @@
+{
+  "name": "2_desafio_backend_filmes",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2-runtime start ./src/ecosystem.config.js --env production",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.4.2",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "lite-server": "^2.6.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "styled-components": "^6.1.13"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "description": ""
+}
